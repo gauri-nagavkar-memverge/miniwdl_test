@@ -5,7 +5,7 @@ task gc_content {
     File input_file
   }
   command {
-    cat ${input_file} | wc -n > line_count
+    cat ${input_file} | wc -l > line_count
   }
   output {
     Int line_count = read_int("line_count")
