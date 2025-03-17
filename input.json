@@ -1,0 +1,4 @@
+{
+  "gc_content_workflow.input_fasta": "s3://miniwdl-workflows-850995563530/synthetic_sequence.fasta",
+  "gc_content_workflow.my_script": "s3://miniwdl-workflows-850995563530/calculate_gc.py"
+}
